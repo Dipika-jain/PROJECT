@@ -80,18 +80,16 @@ int main(){
   cin >> play;
   if(play == 'y' or play == 'Y'){
   int tries= 7;
-
-  const char *longString = R""""(
-        _
+  const char *longString = R""""( _
 | |
-| |_   _ _ _ _   _ _ _ _ __   _ _ _ _
-| '_ \ / ` | ' \ / ` | ' ` _ \ / ` | ' \
-| | | | (| | | | | (| | | | | | | (_| | | | |
-|| ||\_,|| ||\_, || || ||\_,|| ||
+| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __
+| '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \
+| | | | (_| | | | | (_| | | | | | | (_| | | | |
+|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
                     __/ |
-                   |_/
-        )"""";
-        cout << longString << endl;
+                   |___/
+)"""";
+  cout << longString << endl;
   cout<<"WELCOME TO HANGMAN GAME"<<endl;
   cout<<"Each letter is represented by a star." << endl;
   cout<<"You have to enter one alphabet at a time." << endl;
